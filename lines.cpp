@@ -1,6 +1,8 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
+/**please comment*/
+/*mainfunction*/
  
 int main()
 {
@@ -11,6 +13,6 @@ int main()
     while (getline(file, line))
         count++;
         
-    cout << "Numbers of lines in this file : " << count << endl;
+    cout << "Numbers of lines in this file : " << count << endl;//count
     return 0;
 }
